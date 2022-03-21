@@ -21,3 +21,5 @@ for i in range (0,100):
     else:
         continue
 print(by_5)
+cube = [number**3 for number in by_5]
+print(cube)
